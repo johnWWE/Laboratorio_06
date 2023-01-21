@@ -18,7 +18,7 @@ print("La diferencia entre los conjuntos es=> ",resultadoDiferencia)
 #Mediante la entrada de datos por teclado
 conjunto_A = set() #creamos un conjunto vacio para almacenar las entradas de datos
 while True:    #ciclo para que el usuario introduzca la cantidad de datos que quiera
-    valores_conjuntoA = input("Ingrese un valor para el conjunto_A o (ingrese 'exit' para salir): ")
+    valores_conjuntoA = input("Ingrese un valor para el conjunto_A o (ingrese 'exit' para salir) => ")
     if valores_conjuntoA == 'exit':   # para quee termine de introducir datos en ese conjunto
         break
     conjunto_A.add(valores_conjuntoA)  # agregamos los valores introducidos al conjunto vacio
@@ -27,7 +27,7 @@ print('Elementos del conjunto_A',conjunto_A)    #imprimir para visualizar los da
 # el conjunto_B y conjunto_C llevan los mismos pasos que el conjunto A
 conjunto_B = set()
 while True:
-    valores_conjuntoB = input("Ingrese un valor para el conjunto_B o (ingrese 'exit' para salir): ")
+    valores_conjuntoB = input("Ingrese un valor para el conjunto_B o (ingrese 'exit' para salir) => ")
     if valores_conjuntoB == 'exit':
         break
     conjunto_B.add(valores_conjuntoB)
@@ -35,7 +35,7 @@ print('Elementos del conjunto_B',conjunto_B)#imprimir para visualizar los datos 
 
 conjunto_C = set()
 while True:
-    valores_conjuntoC = input("Ingrese un valor para el conjunto _C o (ingrese 'exit' para salir): ")
+    valores_conjuntoC = input("Ingrese un valor para el conjunto _C o (ingrese 'exit' para salir)=> ")
     if valores_conjuntoC == 'exit':
         break
     conjunto_C.add(valores_conjuntoC)
